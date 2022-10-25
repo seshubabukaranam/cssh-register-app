@@ -1,15 +1,26 @@
 body {
     text-align: center;
 }
-.container {
-   
-    display: flex;
+.container 
+ {   
+    display: flex; 
     flex-direction: column;
-    width: 30vw;
+    width: 40vw;
     text-align: center;
+    margin-left: 400px;
+    background-color: rgb(136, 161, 241);
+ }
+ label {
+
+  margin-top: 1rem;
+ }
+  input{
+  margin-top: 5rem;
+  padding: 1rem;
+  margin: auto;
 
 }
-table, td, th {  
+  table, td, th {  
     text-align: center;
     border: 1px solid rgb(10, 8, 8);
     
@@ -18,11 +29,24 @@ table, td, th {
   table {
     margin-left: auto;
     margin-right: auto ;
+    margin-bottom: 2rem;
     text-align: center;
     border-collapse: collapse;
-    width: 50%;
+    width: 40%;
   }
   
   th,td {
     padding: 10px;
+  }
+  button
+  {
+    width: 210px;
+    margin-top: 2rem;
+    margin-left: 10.5rem;
+    border-color: rgb(122, 83, 231);
+    border-width: 1px;
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: rgb(66, 66, 238);
+    
   }

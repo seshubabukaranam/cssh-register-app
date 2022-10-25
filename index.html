@@ -8,29 +8,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container">   
      <h1>CASH REGISTER MANAGER</h1>
      <p>Enter the bill Amountand the cash given by the customer and know the minimum number of money in notes to be returned.</p>
      <label for="bill-amount">Bill Amount :</label>
-     <input id="bill-amount" type="text">
-     <br></br>
-     <label for="cash-amount">Cash Amount :</label>
-     <input id="cash-amount" type="text">
-     <br></br>
+     <input id = "bill-amount" type="text">
+     <label for="cash-amount">Cash Amount Given :</label>
+     <input id = "cash-amount" type="text">
      <button id="btn-cheak">cheak</button>
-     <br></br>
+     <p id = "error-message"> </p>
+     
      <table>
         <caption>Retun Change</caption>
         <tr>
             <th>
                 No Of Notes
             </th>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
+            <td class="no-of-notes"></td>
         <tr>
            <th>
              Available Notes
            </th>
            <td>2000</td>
            <td>500</td>
+           <td>200</td>
            <td>100</td>
            <td>50</td>
            <td>20</td>
